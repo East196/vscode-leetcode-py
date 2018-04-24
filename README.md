@@ -1,5 +1,7 @@
 # tdd-leetcode-py
 用TDD的方法逐步求解[leetcode](https://leetcode.com/)题集
+> leecode 自己会出测试数据
+> use py.test
 
 # reference
 [好的刷题网站?](https://www.zhihu.com/question/25574458)
