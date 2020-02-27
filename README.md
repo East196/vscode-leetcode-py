@@ -1,5 +1,5 @@
-# tdd-leetcode-py
-用TDD的方法逐步求解[leetcode](https://leetcode.com/)题集
+# vscode-leetcode-py
+逐步求解[leetcode](https://leetcode.com/)题集
 > leecode 自己会出测试数据
 > use py.test
 

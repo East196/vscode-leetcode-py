@@ -1,9 +1,15 @@
+#
+# @lc app=leetcode.cn id=2 lang=python3
+#
+# [2] 两数相加
+#
+
+# @lc code=start
 # Definition for singly-linked list.
-class ListNode(object):
+class ListNode:
     def __init__(self, x):
         self.val = x
         self.next = None
-
 
 class Solution(object):
     def addTwoNumbersList(self, l1, l2):
@@ -54,24 +60,10 @@ class Solution(object):
             if not l1.next and not l2.next:
                 if up == 1:
                     now.next = ListNode(1)
-                break;
+                break
             l1 = l1.next if l1.next else ListNode(0)
             l2 = l2.next if l2.next else ListNode(0)
             old = now
         return result
+# @lc code=end
 
-
-def test_0002():
-    assert Solution().addTwoNumbersList([2, 4, 3], [5, 6, 4]) == [7, 0, 8]
-    assert Solution().addTwoNumbersList([2, 4, 3], [5, 6, 4, 2]) == [7, 0, 8, 2]
-    assert Solution().addTwoNumbersList([2, 4, 3], [5, 6, 6]) == [7, 0, 0, 1]
-
-    l1 = ListNode(1)
-    l2 = ListNode(9)
-    l2.next = ListNode(9)
-    l3 = ListNode(0)
-    l3.next = ListNode(0)
-    l3.next.next = ListNode(1)
-    assert Solution().addTwoNumbers(l1, l2).val == l3.val
-    assert Solution().addTwoNumbers(l1, l2).next.val == l3.next.val
-    assert Solution().addTwoNumbers(l1, l2).next.next.val == l3.next.next.val
