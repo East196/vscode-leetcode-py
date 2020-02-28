@@ -1,10 +1,5 @@
-#
-# @lc app=leetcode.cn id=14 lang=python3
-#
-# [14] 最长公共前缀
-#
+import pytest
 
-# @lc code=start
 class Solution:
     def longestCommonPrefix(self, strs):
         pre = "" 
@@ -25,5 +20,8 @@ class Solution:
                 break
         return pre
 
-# @lc code=end
-
+def test_Solution_longestCommonPrefix():
+    assert Solution().longestCommonPrefix(["flower","flow","flight"]) == "fl"
+    assert Solution().longestCommonPrefix(["dog","racecar","car"]) == ""
+    assert Solution().longestCommonPrefix(["a"]) == "a"
+    assert Solution().longestCommonPrefix(["c","c"]) == "c"

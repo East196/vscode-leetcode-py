@@ -2,6 +2,7 @@
 逐步求解[leetcode](https://leetcode.com/)题集
 > leecode 自己会出测试数据
 > use py.test
+> 不仅是为了做题，还要找出自己思维中的盲区
 
 # reference
 [好的刷题网站?](https://www.zhihu.com/question/25574458)
