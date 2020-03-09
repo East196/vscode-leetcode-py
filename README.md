@@ -19,6 +19,7 @@
 [hihocoder](http://www.hihocoder.com/)
 
 ## 小白向
+> 学了c语言还是不知道编程干啥用，怎么用，可以刷刷前端找找感觉
 freecodecamp: github上star最高的js全栈开源学习站
 [英文站](https://www.freecodecamp.org/)
 [中文站](https://freecodecamp.cn/)
